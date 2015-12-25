@@ -37,7 +37,7 @@ func (d dimension) RibbonLength() int {
 }
 
 func main() {
-	absPath, _ := filepath.Abs("day02a/input.txt")
+	absPath, _ := filepath.Abs("day02/input.txt")
 	f, err := os.Open(absPath)
 
 	checkError(err)
